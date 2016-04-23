@@ -127,7 +127,7 @@ a:hover,a:focus {
 }
 .intro {
 	display:table;
-	width:100%;
+	width: 100%;
 	height:auto;
 	padding:100px 0 100px 0;
 	text-align:center;
@@ -147,6 +147,19 @@ a:hover,a:focus {
 .intro .intro-body .intro-text {
 	font-size:18px;
 }
+#navvv {
+	color: black;
+}
+@media only screen and (max-width: 780px), only screen and (max-device-width: 780px) {
+#navvv {
+	color: white;
+}
+
+.intro {
+	visibility: hidden;
+	margin-top: -350px;
+}
+	}
 @media(min-width:768px) {
 	.intro {
 		height:100%;
