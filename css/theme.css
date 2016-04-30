@@ -24,6 +24,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 #products {
 	position: relative;
+	width: 100%;
 }
 #space{
 	clear: both;
@@ -56,6 +57,7 @@ a:hover,a:focus {
 .light {
 	font-weight:400;
 }
+
 .navbar-custom {
 	margin-bottom:0;
 	border-bottom:1px solid rgba(255,255,255,.3);
@@ -154,10 +156,25 @@ a:hover,a:focus {
 #navvv {
 	color: white;
 }
+#contact {
+	margin-top: 50px;
+}
+#products {
+	margin-top: 150px;
+}
+}
+@media only screen and (max-width: 780px), only screen and (max-device-width: 780px) {
+	.nav {
+		width: 100%;
+	}
+	#products {
+		width: 100%;
+	}
 
 .intro {
 	visibility: hidden;
-	margin-top: -350px;
+	display: block !important;
+	margin-top: -500px;
 }
 	}
 @media(min-width:768px) {
@@ -443,6 +460,7 @@ section {
 	-o-transition:border linear 0.2s,box-shadow linear 0.2s;
 	transition:border linear 0.2s,box-shadow linear 0.2s;
 }
+
 #contactform input,#contactform textarea {
 	border:0px;
 	border-bottom:2px solid #333;
